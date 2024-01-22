@@ -43,4 +43,5 @@ def main():
     book = Book("books/frankenstein.txt")
     print(book.get_report())
 
-main()
+if __name__ == "__main__":
+    main()
